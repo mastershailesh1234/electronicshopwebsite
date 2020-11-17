@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+
+
+content h2{
+  background: #f8e4b7;
+  padding: 0 30px;
+
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  padding: 20px;
+  background: #bbbfca;
+
+}
+a1,a2{
+  margin: 0 20px;
+}
+a {
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #aa3a3a;
+  font-weight:bold;
+
+
+}
+
+a2 {
+  flex-direction: row-reverse;
+}
+
+top {
+  display: flex;
+  background: #a4b787;
+  justify-content: center;
+  align-content: space-around;
+  padding: 20px;
+}
+
+
+search {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.search input {
+  width:600px;
+  height:30px;
+  border-radius: 20px;
+  text-align: center;
+}
+.search button{
+  width:30px;
+}
+.search{
+ background: #f1f6f9;
+}
+.catergory, .one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+footer {
+  background: #2F4858;
+  color: white;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #fcf1f1;
+}
+#sub{
+   width:600px;
+   border-radius: 20px;
+   text-align: center;
+   margin-top: 7px;
+}
+#but{
+  margin-top: 6px;
+  padding: 2px 4px;
+}
+.card {
+  position: relative;
+  margin: 10px;
+  width: 300px;
+  height: 430px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.container1 .card .image {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+}
+
+.container1 .card .content {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-center: center;
+  text-align: center;
+  margin: 10px;
+  width: 280px;
+  height: 195px;
+  transform: translateY(90%);
+  transition: 0.7s ease-in-out;
+  background: #9bdc28;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.container1 .card .content h2 {
+  background: White;
+  color: black;
+  border-radius: 4px;
+}
+
+.container1 .card .image img {
+  width: 300px;
+  height: 430px;
+}
+
+.container1 .card:hover .content {
+  transform: translateY(5%);
+}
+
+.RAM, .color {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding: 8px 20px;
+  margin-bottom: 2px;
+}
+
+span {
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  line-height: 26px;
+  font-size:11px;
+  display: inline-block;
+  margin: 0 2px;
+  padding: 0 1px;
+  background: white;
+  transition: .5s;
+  border-radius: 4px;
+}
+
+span:hover {
+  background: black;
+  color: white;
+}
+
+.container1 .card a {
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+  background: black;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.container1 .card a:hover {
+  background: white;
+  color: black;
+}
+
+.container1 {
+  box-shadow: 0 10px 10px black;
+  border:2px solid black;
+  margin: 0 10px;
+}
+
+.one {
+  margin: 90px 0;
+}
+h3{
+  font-size: 11px;
+}
+h2 {
+  text-align: center;
+  color: BLACK;
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+.a{
+  display:inline-block;
+  width:40%;
+  margin:2% 5%;
+}
+.b{
+  display: inline-block;
+  width:20%;
+  margin:2% 5%;
+}
+.b a{
+  color: white;
+}
